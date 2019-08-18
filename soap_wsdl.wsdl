@@ -51,7 +51,7 @@
  
   <service name="Servicio">
     <port name="Operaciones" binding="tns:Enlace">
-      <soap:address location="mihaelcruz.com/api-soap/soap_servidor.php" />
+      <soap:address location="http://uasb-api.rootcode.com.bo/mcruz/api-soap/soap_servidor.php" />
     </port>
   </service>
 
